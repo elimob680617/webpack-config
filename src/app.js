@@ -1,5 +1,11 @@
 import React from "react";
+import "./App.css";
+const App = () => {
+  return (
+    <div className="App">
+      <h1>React app with Webpack</h1>
+    </div>
+  );
+};
 
-export function App() {
-  return <h1>Hello from webpack !</h1>;
-}
+export default App;
